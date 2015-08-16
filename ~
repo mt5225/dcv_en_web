@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>uinnova - make I.T. visible</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Minimal Bootstrap Theme">
+    <meta name="keywords" content="onepage,responsive,minimal,bootstrap,theme">
+    <meta name="author" content="uinnova">
+    <link rel="icon" type="image/ico" href="favicon.ico">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/plugin.css" type="text/css">
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- custom style css -->
+    <link rel="stylesheet" href="css/custom-style.css" type="text/css">
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/color.css" type="text/css">
+    <!-- revolution slider -->
+    <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+    <!-- load fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
+</head>
+
+<body id="homepage">
+    <!-- This section is for Splash Screen -->
+    <div id="jSplash">
+        <section class="selected">
+            loading ...
+        </section>
+        <section>
+            uinnova
+        </section>
+        <section>
+            "Make I.T. Visible"
+        </section>
+    </div>
+    <!-- End of Splash Screen -->
+    <div id="wrapper">
+        <div class="page-overlay">
+        </div>
+        <!-- header begin -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <h1 id="logo">
+                            <a href="index.html">
+                                <img class="logo-1" src="images/uinnova_logoen3.png" alt="">
+                                <img class="logo-2" src="images/logo_uinnovaen_198.png" alt="">
+                            </a>
+                        </h1>
+                        <!-- logo close -->
+                        <!-- small button begin -->
+                        <span id="menu-btn"></span>
+                        <!-- small button close -->
+                        <!-- mainmenu begin -->
+                        <nav>
+                            <nav>
+                                <ul id="mainmenu">
+                                    <li><a class="active" href="#wrapper">Home</a></li>
+                                    <li><a href="#section-product">Product</a></li>
+                                    <li><a href="#section-testimonial">Customers</a></li>
+                                    <li><a href="#section-awards">Awards</a></li>
+                                    <li><a href="#section-contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+                    <!-- mainmenu close -->
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+            <!-- section begin -->
+            <section class="full-height no-padding dark" data-stellar-background-ratio=".2">
+                <div class="de-video-container">
+                    <div class="de-video-content">
+                        <div class="text-center text-intro">
+                            DataCenter Visualization / Collaborative IT Management
+                            <div class="spacer-single"></div>
+                            <div class="text-slider border-deco">
+                                <div class="text-item"><span class="id-color">Architecture</span> Visualization</div>
+                                <div class="text-item">DataCenter <span class="id-color">Visualization</span></div>
+                                <div class="text-item"><span class="id-color">Collaborative</span> Management</div>
+                                <div class="text-item"><span class="id-color"></span>Make <span class="id-color">I.T.</span> Visible</div>
+                            </div>
+                            <div class="spacer-single"></div>
+                            <a href="#section-product" class="btn btn-border btn-big">Products</a> &nbsp;
+                            <a href="#section-skill-bar" class="btn btn-border btn-big">Getting Started</a>
+                        </div>
+                    </div>
+                    <div class="de-video-overlay"></div>
+                    <!-- load your video here -->
+                    <video autoplay="" loop="" muted="" poster="video/en_web_videobg.jpg">
+                        <source src="video/en_web_videobg.webm" type="video/webm" />
+                        <source src="video/en_web_videobg.mp4" type="video/mp4" />
+                        <source src="video/en_web_videobg.ogg" type="video/ogg" />
+                    </video>
+                </div>
+            </section>
+            <!-- section close -->
+            <!-- product section begin -->
+            <section id="section-product">
+                <div class="container">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 text-center">
+                                <h1 class="animated" data-animation="fadeInUp"><span class="id-color">Products</span>
+                                    <span class="small-border animated" data-animation="fadeInUp"></span>
+                                </h1>
+                                <p class="lead animated" data-animation="fadeInUp">
+                                    Make I.T. Visible
+                                </p>
+                                <div class="spacer-single"></div>
+                            </div>
+                        </div>
+                        <!-- featured box begin -->
+                        <div class="feature-box-small-icon box-fx col-md-offset-1 center col-md-3 animated" data-animation="fadeInUp" data-delay="0">
+                            <div class="inner">
+                                <div class="front">
+                                    <i class="icon-genius"></i>
+                                    <h3>uDCB</h3>
+                                    <span>Datacenter Builder</span>
+                                </div>
+                                <div class="info">
+                                    Utilizing the WYSIWYG operation model, uDCB enables users to design 3D datacenter with great flexibility.
+                                    <br>
+                                    <a href="dcb.html" class="btn btn-border">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- featured box close -->
+                        <!-- featured box begin -->
+                        <div class="feature-box-small-icon box-fx col-md-offset-1 center col-md-3 animated" data-animation="fadeInUp" data-delay="200">
+                            <div class="inner">
+                                <div class="front">
+                                    <i class="icon-linegraph"></i>
+                                    <h3>uDCV</h3>
+                                    <span>Datacenter Visualizer</span>
+                                </div>
+                                <div class="info">
+                                    Visualize the information about the datacenter facilities, storage, networks, servers, OS and applications.
+                                    <br>
+                                    <a href="dcv.html" class="btn btn-border">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- featured box close -->
+                        <!-- featured box begin -->
+                        <div class="feature-box-small-icon box-fx col-md-offset-1 center col-md-3 animated" data-animation="fadeInUp" data-delay="400">
+                            <div class="inner">
+                                <div class="front">
+                                    <i class="icon-layers"></i>
+                                    <h3>uITA</h3>
+                                    <span>IT Architecture Visualizer</span>
+                                </div>
+                                <div class="info">
+                                    Realtime IT architecture and component visualization, includes business transactions, applications, systems, networks, storage and other IT infrastructure.
+                                    <br>
+                                    <a href="ita.html" class="btn btn-border">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- featured box close -->
+                    </div>
+                </div>
+            </section>
+            <!-- product section close -->
+            <!-- number section begin -->
+            <section id="fun-facts" class="dark" data-stellar-background-ratio=".2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInUp">We <span class="id-color">Visualize</span></h1>
+                            <span class="small-border animated" data-animation="fadeInUp"></span>
+                            <div class="spacer-single"></div>
+                        </div>
+                        <div class="col-md-4 animated" data-animation="fadeInLeft" data-delay="100">
+                            <div class="de_count">
+                                <i class="icon-alarmclock animated" data-animation="fadeInDown" data-delay="0"></i>
+                                <h3 class="timer" data-to="1980" data-speed="2500">0</h3>
+                                <span>DataCenters</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 animated" data-animation="fadeInLeft" data-delay="0">
+                            <div class="de_count">
+                                <i class="icon-documents animated" data-animation="fadeInDown" data-delay="200"></i>
+                                <h3 class="timer" data-to="1280" data-speed="3500">0</h3>
+                                <span>Server Rooms</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 animated" data-animation="fadeInRight" data-delay="0">
+                            <div class="de_count">
+                                <i class="icon-piechart animated" data-animation="fadeInDown" data-delay="400"></i>
+                                <h3 class="timer" data-to="70000" data-speed="2500">0</h3>
+                                <span>Cabinets</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+            <!-- section begin -->
+            <section id="section-awards">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3 text-center">
+                            <h1 class="animated" data-animation="fadeInUp"><span class="id-color">Awards</span>
+                                <span class="small-border animated" data-animation="fadeInUp"></span>
+                            </h1>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                    <div class="animated row" data-animation="fadeInUp" data-delay="200">
+                        <div class="col-md-6">
+                            <div class="col-md-3 post-image">
+                                <img src="images/awards.jpg" alt="" />
+                            </div>
+                            <div class="col-md-9">
+                                <div class="post-text">
+                                    <h3><a href="http://archive.datacenterdynamics.com/awards/apac/past-winners">2013 DatacenterDynamics</a></h3> Best Creative and Design-Future Thinking & Design Concept.
+                                    <a href="http://archive.datacenterdynamics.com/awards/apac/past-winners" class="btn-text">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+            <!-- section begin -->
+            <section id="section-skill-bar" class="dark" data-stellar-background-ratio=".2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInUp">Getting <span class="id-color">Started</span>
+                                <span class="small-border animated" data-animation="fadeInUp"></span>
+                            </h1>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                    <!-- feature box begin -->
+                    <div class="feature-box-small-icon col-md-4 animated" data-animation="fadeInUp" data-delay="0">
+                        <div class="inner">
+                            <i class="icon-magnifying-glass"></i>
+                            <div class="text">
+                                <h3><span class="id-color">Review Video Tutorial</span></h3> Get idea of overall step to build an 3D datacenter by review this video tutorial
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature box close -->
+                    <!-- feature box begin -->
+                    <div class="feature-box-small-icon col-md-4 animated" data-animation="fadeInUp" data-delay="0">
+                        <div class="inner">
+                            <i class="icon-tools"></i>
+                            <div class="text">
+                                <h3><span class="id-color">Create 3D Building，Server Rooms & Cabinets</span></h3> Click here to start building your datacenter online using uDCB, our cloud-based，award-winning 3D modelling product. You may also request uDCB trail version if you perfer to using uDCB within intranet.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature box close -->
+                    <!-- feature box begin -->
+                    <div class="feature-box-small-icon col-md-4 animated" data-animation="fadeInUp" data-delay="0">
+                        <div class="inner">
+                            <i class="icon-pencil"></i>
+                            <div class="text">
+                                <h3><span class="id-color">Create Servers, Sensors and Other Devices</span></h3> By import model and asset forms and wiring information, you can create, search infrasture, calculate power, space, event generate heatmap in your server room in 3D by just a few clicks.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- feature box close -->
+                </div>
+            </section>
+            <!-- section end -->
+            <!-- section begin -->
+            <section id="section-testimonial" class="dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInUp"><span class="id-color">Customer</span> Says</h1>
+                            <span class="small-border animated" data-animation="fadeInUp"></span>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                    <div id="testimonial-carousel" class="de_carousel row animated" data-animation="fadeInUp" data-delay="200">
+                        <div class="col-md-4 item">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>The support staff is AMAZING. Same day service. They also have built a GREAT theme that supports so many functions. You can tweak little things here and there and use its functionality for SO much more! What an AWESOME AWESOME AWESOME theme.</p>
+                                </blockquote>
+                                <div class="de_testi_by">
+                                    <div class="de_testi_pic">
+                                        <img src="images/testi_pic%20(1).jpg" alt="" class="img-circle">
+                                    </div>
+                                    <div class="de_testi_company">
+                                        <strong>Feldhouse</strong>, Customer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>All of my questions were answered, designesia was very forthcoming and helpful and even sent me custom code for a specific problem I had. I know one thing: whatever theme designesia publishes, you can be assured that you get the best quality and support out there.</p>
+                                </blockquote>
+                                <div class="de_testi_by">
+                                    <span class="de_testi_pic">
+                                        <img src="images/testi_pic%20(2).jpg" alt="" class="img-circle"></span>
+                                    <div class="de_testi_company">
+                                        <strong>Mores</strong>, Customer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>There are some themes I have bought and are just 'eh' about. This one hands down does so much more than you could think. Perfect theme - and thanks for continually updating and improving it!</p>
+                                </blockquote>
+                                <div class="de_testi_by">
+                                    <div class="de_testi_pic">
+                                        <img src="images/testi-default.jpg" alt="" class="img-circle">
+                                    </div>
+                                    <div class="de_testi_company">
+                                        <strong>Feldhouse</strong>, Customer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>Again, great template and I love that it works on the computer, iPad, phone, etc. Very clean design, keep up the great work!</p>
+                                </blockquote>
+                                <div class="de_testi_by">
+                                    <div class="de_testi_pic">
+                                        <img src="images/testi_pic%20(1).jpg" alt="" class="img-circle">
+                                    </div>
+                                    <div class="de_testi_company">
+                                        <strong>Barbara</strong>, Customer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>Everything is nicely accessible inside the theme customization screen. It is easily comprehensible, the way things work is very natural and intuitive.</p>
+                                </blockquote>
+                                <div class="de_testi_by">
+                                    <span class="de_testi_pic">
+                                        <img src="images/testi_pic%20(2).jpg" alt="" class="img-circle"></span>
+                                    <div class="de_testi_company">
+                                        <strong>Mores</strong>, Customer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="de_testi">
+                                <blockquote>
+                                    <p>Fit our needs like a glove. 1 hour to setup. I am currently implementing the language support Thanks for the awesome.</p>
+                                </blockquote>
+                                <div class="de_testi_by">
+                                    <div class="de_testi_pic">
+                                        <img src="images/testi-default.jpg" alt="" class="img-circle">
+                                    </div>
+                                    <div class="de_testi_company">
+                                        <strong>Itweb</strong>, Customer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+            <!-- section begin -->
+            <section id="logo-full">
+                <div class="container">
+                    <!-- logo carousel -->
+                    <div class="row">
+                        <div class="logo-carousel">
+                            <ul id="logo-carousel" class="slides">
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_Schneider.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_hp.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_ibm.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/chima_chinabank.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_huawei.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_alibaba.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_emerson.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_nec.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_siemens.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_cmb.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_chinaunicom.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_icbc.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_slnopec.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_ccb.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_chinapetrol.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_aboc.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-2">
+                                        <img src="images/logo_partner/logo_chinatelecom.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- logo carousel close -->
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+            <!-- section begin -->
+            <section id="section-contact" class="dark" data-stellar-background-ratio=".2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated" data-animation="fadeInUp">Contact <span class="id-color">Us</span>
+                            <span class="small-border animated" data-animation="fadeInUp"></span>
+                            </h1>
+                            <div class="spacer-single"></div>
+                        </div>
+                        <div class="col-md-8 animated" data-animation="fadeInUp" data-delay="200" data-speed="5">
+                            <form name="contactForm" id='contact_form' method="post" action='email.php'>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div id='name_error' class='error'>Please enter your name.</div>
+                                        <div>
+                                            <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                        <div>
+                                            <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div id='message_error' class='error'>Please enter your message.</div>
+                                        <div>
+                                            <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                                    <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                    <div class="col-md-12">
+                                        <p id='submit'>
+                                            <input type='submit' id='send_message' value='Submit Form' class="btn btn-border">
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <address>
+                                <span><i class="fa fa-map-marker fa-lg"></i> TBD </span>
+                                <span><i class="fa fa-phone fa-lg"></i>TBD</span>
+                                <span><i class="fa fa-envelope-o fa-lg"></i><a href="mailto:info@uinnova.com">info@uinnova.com</a></span>
+                                <span><i class="fa fa-globe fa-lg"></i><a href="#">support.uinnova.com</a></span>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+            <!-- footer begin -->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="social-icons">
+                                <a href="http://www.facebook.com/uinnova"><i class="fa fa-facebook fa-lg"></i></a>
+                                <a href="http://www.twitter.com/uinnova"><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href="mailto:info@uinnova.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+                                <a href="http://www.linkedin.com/company/uinnova-inc"><i class="fa fa-linkedin fa-lg"></i></a>
+                            </div>
+                            <div class="spacer-single"></div>
+                            ©Copyright 2015 - uinnova
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer close -->
+        </div>
+    </div>
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.scrollto.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/video.resize.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/designesia.js"></script>
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+</body>
+
+</html>
