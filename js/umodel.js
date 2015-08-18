@@ -3,7 +3,7 @@
  */
 var uModel = uModel || {};
 var external = null;
-uModel.scene = "ubuilder-0.4.545.unity3d";
+uModel.scene = "ubuilder-0.4.551.unity3d";
 uModel.loadJson = "";
 uModel.param = "";
 uModel.web = {};
@@ -92,7 +92,17 @@ uModel.externalInterface = function() {
 	} else if (param1 == "HideWindow") {
 		ubundle.dialog.win.hide();
 	} else if (param1 == "download") {
-		window.open("rest/web/application/file/down/"+arguments[1],"downloadIframe");
+		//modify by jerry
+		//window.open("rest/web/application/file/down/"+arguments[1],"downloadIframe");
+		//window.open(""+arguments[1],"downloadIframe");
+		var link;
+		link = document.createElement('a');
+		link.download = "export.json";
+		link.target = '_blank';
+		link.href =  arguments[1];
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
 	} else if (param1 == "OpenUrl") {
 		window.open(arguments[1],"OpenUrl",arguments[2]);
 	} else if (param1 == "ExecuteHtmlInterface") {
