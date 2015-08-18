@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity Web Player | uBuilder-v0.6</title>
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type="text/javascript" src="js/umodel.js"></script>
+    <script type="text/javascript" src="js/UnityObject2.js"></script>
+    <script type="text/javascript">
+    jQuery(function() {
+                // uModel.param = "{\"id\":\"" + modelid + "\"," + "\"descr\":\"" +
+                //     back.content.descr + "\"," + "\"name\":\"" + back.content.name + "\"," +
+                //     "\"userid\":\"" + back.content.userid + "\"," + "\"tags\":\"" +
+                //     back.content.tags + "\"}";
+                uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\"}";
+                uModel.state = 0; // 编辑
+                uModel.loadJson = "";
+                uModel.start3d();
+                uModel.resize(1280, 1024);
+            });
+    </script>
+    <style type="text/css">  
+    div#unityPlayer {
+        cursor: default;
+        height: 1024px;
+        width: 1280px;
+    }
+    </style>
+</head>
+
+<body>
+    <p class="header"><span>Unity Web Player | </span>uBuilder-v0.6</p>
+    <div class="content">
+        <div id="unityPlayer">
+            <div class="missing">
+                <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                    <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+</body>
+
+<iframe id="downloadIframe" name="downloadIframe" src="" width="1" height="1" style="display:none;" ></iframe>
+</html>
