@@ -92,7 +92,9 @@ uModel.externalInterface = function() {
 	} else if (param1 == "HideWindow") {
 		ubundle.dialog.win.hide();
 	} else if (param1 == "download") {
+		///////////////////////
 		//modify by jerry
+		///////////////////////
 		//window.open("rest/web/application/file/down/"+arguments[1],"downloadIframe");
 		//window.open(""+arguments[1],"downloadIframe");
 		var link;

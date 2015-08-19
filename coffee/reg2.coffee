@@ -35,8 +35,10 @@ server = http.createServer (req, res) ->
       req.on 'end', ->
         POST = qs.parse(body)
         # use POST
-        #console.log POST
-        fs.writeFile '/usr/share/nginx/mbts_24_Cubic/exported/udbcexport.json', JSON.stringify(POST), (err) ->
+        console.log JSON.parse(POST['param'])
+        msgBody = JSON.parse(POST['param'])
+        #fs.writeFile '/Users/mt5225/Projects/corpwebsite/dcv_en_web/exported/udbcexport.json', msgBody.content, (err) ->
+        fs.writeFile '/usr/share/nginx/mbts_24_Cubic/exported/udbcexport.json', body, (err) ->
           if err
             return console.log(err)
           console.log 'The file was saved to udbcexport.json'
