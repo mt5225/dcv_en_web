@@ -36,7 +36,7 @@
                 'success' : function(data) {
                   console.log(data.resource);
                   uModel.state = 0; 
-                  uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\", \"userid\":\"" + userid + "\",\"hostUrl\":\"http://localhost:8088\", \"name\": \""+ data.name +"\"}";
+                  uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\", \"userid\":\"" + userid + "\",\"hostUrl\":\"" +URL_PREFIX + "\", \"name\": \""+ data.name +"\"}";
                   uModel.loadJson = data.resource;
                   uModel.start3d();
                   uModel.resize(1280, 1024);
