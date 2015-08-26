@@ -3,7 +3,7 @@
  */
 var uModel = uModel || {};
 var external = null;
-uModel.scene = "ubuilder-0.4.570.unity3d";
+uModel.scene = "ubuilder-0.4.572.unity3d";
 uModel.loadJson = "";
 uModel.param = "";
 uModel.web = {};
@@ -99,7 +99,7 @@ uModel.externalInterface = function() {
 		//window.open(""+arguments[1],"downloadIframe");
 		var link;
 		link = document.createElement('a');
-		link.download = "export.json";
+		link.download = "uDCB_export.json";
 		link.target = '_blank';
 		link.href =  arguments[1];
 		document.body.appendChild(link);

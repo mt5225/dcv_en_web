@@ -5,23 +5,55 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | uBuilder-v0.6</title>
     <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type='text/javascript' src='js/js.cookie.js'></script>
     <script type="text/javascript" src="js/umodel.js"></script>
     <script type="text/javascript" src="js/UnityObject2.js"></script>
     <script type="text/javascript">
+    function getUrlVars() {
+        var vars = [],
+            hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < hashes.length; i++) {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+
     jQuery(function() {
-                // uModel.param = "{\"id\":\"" + modelid + "\"," + "\"descr\":\"" +
-                //     back.content.descr + "\"," + "\"name\":\"" + back.content.name + "\"," +
-                //     "\"userid\":\"" + back.content.userid + "\"," + "\"tags\":\"" +
-                //     back.content.tags + "\"}";
-                uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\", \"hostUrl\":\"http://localhost:8088\"}";
-                //uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\", \"hostUrl\":\"http://54.186.219.119:8088\"}";
-                uModel.state = 0; // 编辑
-                uModel.loadJson = "";
-                uModel.start3d();
-                uModel.resize(1280, 1024);
-            });
+        var URL_PREFIX = 'http://localhost:8088'
+        //var URL_PREFIX = 'http://54.186.219.119:8088'
+        var userid = getUrlVars()["userid"];
+        var scene_id = getUrlVars()["scene_id"];
+        console.log("userid = " + userid);
+        Cookies.set('userid', userid);
+        if(scene_id) { //load existing scene
+            console.log("scene_id = " + scene_id);
+            $.ajax({        
+                'url' : URL_PREFIX + '/usm/api/v1/scenes/id/' + scene_id,
+                'type' : 'GET',
+                'success' : function(data) {
+                  console.log(data.resource);
+                  uModel.state = 0; 
+                  uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\", \"userid\":\"" + userid + "\",\"hostUrl\":\"http://localhost:8088\", \"name\": \""+ data.name +"\"}";
+                  uModel.loadJson = data.resource;
+                  uModel.start3d();
+                  uModel.resize(1280, 1024);
+                }
+              });
+        }
+        else {  //create new scene
+            uModel.param = "{\"stype\": \"udcb\", \"language\": \"en\", \"userid\":\"" + userid + "\",\"hostUrl\":\"" + URL_PREFIX + "\"}";
+            console.log(uModel.param);
+            uModel.state = 0; 
+            uModel.loadJson = "";
+            uModel.start3d();
+            uModel.resize(1280, 1024);
+        }
+    });
     </script>
-    <style type="text/css">  
+    <style type="text/css">
     div#unityPlayer {
         cursor: default;
         height: 1024px;
@@ -43,6 +75,6 @@
     </div>
     <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
 </body>
+<iframe id="downloadIframe" name="downloadIframe" src="" width="1" height="1" style="display:none;"></iframe>
 
-<iframe id="downloadIframe" name="downloadIframe" src="" width="1" height="1" style="display:none;" ></iframe>
 </html>
