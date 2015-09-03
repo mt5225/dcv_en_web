@@ -2,14 +2,10 @@
 /* -------------------------------------------------- */
 
 #subheader{
-background:url(../images/background/bg-subheader.jpg) top left fixed;
-background-size:cover;
-}
+background:url(../images/background/bg-subheader.jpg) top left fixed;}
 
 #fun-facts{
-background:url(../images/background/bg-3.jpg) top left fixed;
-background-size:cover;
-}
+background:url(../images/background/bg-3.jpg) top left fixed;}
 
 #section-contact{ 
 background:url(../images/background/bg-4.jpg) top left fixed;
@@ -22,6 +18,7 @@ background-size:cover;
 }
 
 #info-address{background:url(../images/background/bg-3.jpg) top fixed;}
+
 #logo-full{ background:#000; padding:60px 0 60px 0;}
 #view-all-projects{background:#F06807; padding:60px 0 60px 0;}
 #section-about-us-2{background:#f8f8f8; height:100%;}
@@ -32,7 +29,11 @@ background-size:cover;
 #section-welcome{background:url(../images/background/bg-5.jpg);}
 #section-welcome-2{background:url(../images/background/bg-6.jpg);}
 #section-welcome-3{background:url(../images/background/bg-7.jpg) top left;}
+
 .dark #section-portfolio{background:#222;}
 
 #section-testimonial{ background:url(../images/background/bg-2.jpg) top fixed;}
 
+.text-white{
+ color: #FFFFFF;
+}
