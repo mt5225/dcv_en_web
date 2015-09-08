@@ -3,7 +3,7 @@
  */
 var uModel = uModel || {};
 var external = null;
-uModel.scene = "ubuilder-0.4.594.unity3d";
+uModel.scene = "ubuilder-0.7.621.unity3d";
 uModel.loadJson = "";
 uModel.param = "";
 uModel.web = {};
