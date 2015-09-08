@@ -29,6 +29,7 @@ background-size:cover;
 #section-welcome{background:url(../images/background/bg-5.jpg);}
 #section-welcome-2{background:url(../images/background/bg-6.jpg);}
 #section-welcome-3{background:url(../images/background/bg-7.jpg) top left;}
+#section-welcome-about{background:url(../images/background/bg-2.jpg);}
 
 .dark #section-portfolio{background:#222;}
 
@@ -36,4 +37,8 @@ background-size:cover;
 
 .text-white{
  color: #FFFFFF;
+}
+
+.post-text{
+    font-size: 16px;
 }
