@@ -861,6 +861,7 @@ footer {
 	border:solid 1px #fff;
 	padding:15px 30px 15px 30px;
 	}
+	
 	a.btn-big:after{
 	font-family:FontAwesome;
 	content: "\f054";
