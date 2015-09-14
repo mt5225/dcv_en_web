@@ -803,3 +803,5 @@ jQuery(window).scroll(function() {
 
 ga('create', 'UA-67606305-1', 'auto');
 ga('send', 'pageview');
+ga(‘set’, ‘&uid’, {{USER_ID}}); // Set the user ID using signed-in user_id.
+
