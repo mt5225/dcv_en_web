@@ -94,3 +94,18 @@ a.btn-big:hover:after {
 #build_now.btn-border:after{
     color:#eceff3;
 }
+
+#abouttext p {
+font-size: 16px;
+text-align: justify;
+}
+
+#mainmenu a { 
+font-size: 16px;
+}
+
+
+.crumb {
+font-size: 16px;
+}
+
