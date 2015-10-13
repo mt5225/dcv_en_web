@@ -98,6 +98,7 @@ uModel.externalInterface = function() {
 		//window.open("rest/web/application/file/down/"+arguments[1],"downloadIframe");
 		//window.open(""+arguments[1],"downloadIframe");
 		var link;
+		console.log("export scene");
 		link = document.createElement('a');
 		link.download = "uDCB_export.json";
 		link.target = '_blank';
