@@ -109,3 +109,21 @@ font-size: 16px;
 font-size: 16px;
 }
 
+#galleryimage {    
+    max-width: 95%; 
+    max-height: 95%;
+    margin:auto;
+    display:block;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    opacity: 1; 
+    filter: alpha(opacity=100);
+}
+
+/*#galleryimage:hover { 
+    opacity: 0.1; 
+    filter: alpha(opacity=10); 
+    max-width: 100%; 
+    max-height: 100%;
+}*/
+
