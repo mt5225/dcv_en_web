@@ -305,11 +305,15 @@ jQuery(document).ready(function() {
     jQuery(".gallery:first a[data-type^='prettyPhoto']").prettyPhoto({
         animation_speed: 'fast',
         theme: 'pp_default',
+        default_width: 1400,
+        default_height: 900,
         slideshow: 3000,
         autoplay_slideshow: false
     });
     jQuery(".gallery:gt(0) a[data-type^='prettyPhoto']").prettyPhoto({
         animation_speed: 'fast',
+        default_width: 1400,
+        default_height: 900,
         slideshow: 10000,
         hideflash: true
     });
