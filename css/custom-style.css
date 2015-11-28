@@ -125,11 +125,11 @@ font-size: 16px;
     max-width: 95%; 
     max-height: 95%;
     margin:auto;
-    display:block;
+/*    display:block;
     -webkit-box-shadow: 1px 1px 1px #111;
     box-shadow: 1px 1px 1px #111;
     opacity: 1; 
-    filter: alpha(opacity=100);
+    filter: alpha(opacity=100);*/
 }
 
 
