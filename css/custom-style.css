@@ -6,21 +6,21 @@
 }
 
 #fun-facts {
-    background: url(../images/background/bg-9.jpg) top left fixed;
+    background: url(../images/background/bg-9.jpg) top fixed;
 }
 
 #section-contact {
-    background: url(../images/background/bg-4.jpg) top left fixed;
+    background: url(../images/background/bg-4.jpg) top  fixed;
     background-size: cover;
 }
 
 #section-skill-bar {
-    background: url(../images/background/bg-8.jpg) top left fixed;
+    background: url(../images/background/bg-8.jpg) top  fixed;
     background-size: cover;
 }
 
 #info-address {
-    background: url(../images/background/bg-3.jpg) top fixed;
+    background: url(../images/background/bg-3.jpg) top  fixed;
 }
 
 #logo-full {
@@ -39,7 +39,7 @@
 }
 
 #section-about-us-2 .image-container {
-    background: url(../images/background/imagination.jpg);
+    background: url(../images/background/imagination.jpg) top  fixed;
 }
 
 .dark #section-about-us-2 {
@@ -48,34 +48,32 @@
 }
 
 #section-welcome {
-    background: url(../images/background/bg-5.jpg);
+    background: url(../images/background/bg-5.jpg) top  fixed;
 }
 
 #section-welcome-2 {
-    background: url(../images/background/bg-6.jpg);
+    background: url(../images/background/bg-6.jpg) top  fixed;
 }
 
 #section-welcome-3 {
-    background: url(../images/background/bg-7.jpg) top left;
+    background: url(../images/background/bg-7.jpg) top  fixed;
 }
 
 #section-welcome-9 {
-    background: url(../images/background/bg-12.jpg);
+    background: url(../images/background/bg-12.jpg) top  fixed;
 }
 
 #section-welcome-about {
-    background: url(../images/background/bg-2.jpg);
+    background: url(../images/background/bg-2.jpg) top  fixed;
 }
 
 .dark #section-portfolio {
     background: #222;
 }
 
-#section-product {
-}
 
 #section-testimonial {
-    background: url(../images/background/bg-2.jpg) top fixed;
+    background: url(../images/background/bg-2.jpg) top  fixed;
 }
 
 .text-white {
@@ -117,13 +115,13 @@ font-size: 16px;
 }
 
 #gallery-padding {
-/*    padding-left: 12px;
+    padding-left: 12px;
     padding-bottom: 12px;
-    padding-right: 5px;*/
+    padding-right: 5px;
 }
 
 #product-text {
-    /*padding-left: 12px;*/
+    padding-left: 12px;
 }
 
 #galleryimage {
@@ -137,6 +135,5 @@ font-size: 16px;
     opacity: 1; 
     filter: alpha(opacity=100);
 }
-
 
 
