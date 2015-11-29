@@ -119,6 +119,11 @@ font-size: 16px;
 #gallery-padding {
     padding-left: 12px;
     padding-bottom: 12px;
+    padding-right: 5px;
+}
+
+#product-text {
+    padding-left: 12px;
 }
 
 #galleryimage {
