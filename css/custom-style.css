@@ -20,7 +20,7 @@
 }
 
 #section-isc {
-    background: url(../images/background/bg-12.jpg) top  fixed;
+    background: url(../images/mmd/mmd-bg.jpg) top;
     background-size: cover;
 }
 
@@ -139,5 +139,12 @@ font-size: 16px;
     opacity: 1; 
     filter: alpha(opacity=100);
 }
+
+.text-slider.mid-text {
+    font-size: 80px;
+    line-height:100px;
+    font-weight:180;
+}
+
 
 
