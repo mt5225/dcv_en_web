@@ -10,12 +10,12 @@
 }
 
 #section-contact {
-    background: url(../images/background/bg-4.jpg) top  fixed;
+    background: url(../images/background/bg-4.jpg) top fixed;
     background-size: cover;
 }
 
 #section-skill-bar {
-    background: url(../images/background/bg-8.jpg) top  fixed;
+    background: url(../images/background/bg-8.jpg) top fixed;
     background-size: cover;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #info-address {
-    background: url(../images/background/bg-3.jpg) top  fixed;
+    background: url(../images/background/bg-3.jpg) top fixed;
 }
 
 #logo-full {
@@ -44,11 +44,10 @@
 }
 
 #section-about-us-2 .image-container {
-    background: url(../images/background/imagination.jpg) top  fixed;
+    background: url(../images/background/imagination.jpg) top fixed;
 }
 
-#section-mmd .image-container {
-}
+#section-mmd .image-container {}
 
 .dark #section-about-us-2 {
     background: #222;
@@ -56,15 +55,15 @@
 }
 
 #section-welcome {
-    background: url(../images/background/bg-5.jpg) top  fixed;
+    background: url(../images/background/bg-5.jpg) top fixed;
 }
 
 #section-welcome-2 {
-    background: url(../images/background/bg-6.jpg) top  fixed;
+    background: url(../images/background/bg-6.jpg) top fixed;
 }
 
 #section-welcome-3 {
-    background: url(../images/background/bg-7.jpg) top  fixed;
+    background: url(../images/background/bg-7.jpg) top fixed;
 }
 
 #section-welcome-9 {
@@ -78,7 +77,6 @@
 .dark #section-portfolio {
     background: #222;
 }
-
 
 #section-testimonial {
     background: url(../images/background/bg-2.jpg) top fixed;
@@ -104,22 +102,21 @@ a.btn-big:hover:after {
     color: #fff !important;
 }
 
-#build_now.btn-border:after{
-    color:#eceff3;
+#build_now.btn-border:after {
+    color: #eceff3;
 }
 
 #abouttext p {
-font-size: 16px;
-text-align: justify;
+    font-size: 16px;
+    text-align: justify;
 }
 
-#mainmenu a { 
-font-size: 16px;
+#mainmenu a {
+    font-size: 16px;
 }
-
 
 .crumb {
-font-size: 16px;
+    font-size: 16px;
 }
 
 #gallery-padding {
@@ -133,18 +130,16 @@ font-size: 16px;
 }
 
 #galleryimage {
-    display:block;
+    display: block;
     -webkit-box-shadow: 1px 1px 1px #111;
     box-shadow: 1px 1px 1px #111;
-    opacity: 1; 
+    opacity: 1;
     filter: alpha(opacity=100);
 }
 
 .text-slider.mid-text {
     font-size: 80px;
-    line-height:100px;
-    font-weight:180;
+    line-height: 100px;
+    font-weight: 180;
 }
-
-
 
