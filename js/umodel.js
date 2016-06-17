@@ -384,3 +384,10 @@ uModel.setClipboard = function(maintext) {
 	}
 	return false;
 };
+
+uModel.OnLoadComplete = function() {
+};
+
+uModel.OnApplicationFocus = function(bool) {
+};
+
