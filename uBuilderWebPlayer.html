@@ -47,7 +47,7 @@
                     console.log(data.resource);
                     uModel.state = 0;
                     //uModel.param = "{\"bundle\":\"http://52.41.114.117:8055/librarys/\", \"stype\": \"udcb\", \"language\": \"en\", \"userid\":\"" + userid + "\",\"hostUrl\":\"" + URL_PREFIX + "\", \"name\": \"" + data.name + "\"}";
-                    uModel.param = "{\"bundle\":\"http://52.41.114.117:8055/librarys/\",\"userid\":\"" + userid + "\",\"language\":\"en\",\"stype\":\"udcb_en\",\"exportToDCV\":\"true\",\"mqEnable\":\"false\",\"hostUrl\":\"" + URL_PREFIX + "\", \"name\": \"" + data.name + "\", \"id\": \"" + scene_id +  "\"}";
+                    uModel.param = "{\"bundle\":\"http://52.41.114.117:8055/librarys\",\"userid\":\"" + userid + "\",\"language\":\"en\",\"stype\":\"udcb_en\",\"exportToDCV\":\"true\",\"mqEnable\":\"false\",\"hostUrl\":\"" + URL_PREFIX + "\", \"name\": \"" + data.name + "\", \"id\": \"" + scene_id +  "\"}";
                     uModel.loadJson = data.resource;
                     uModel.start3d();
                     uModel.resize(width, height);
@@ -55,7 +55,7 @@
             });
         } else { //create new scene
             //uModel.param = "{\"bundle\":\"http://52.41.114.117:8055/librarys/\", \"stype\": \"udcb\", \"language\": \"en\", \"userid\":\"" + userid + "\",\"hostUrl\":\"" + URL_PREFIX + "\"}";
-            uModel.param = "{\"bundle\":\"http://52.41.114.117:8055/librarys/\",\"userid\":\"" + userid + "\",\"language\":\"en\",\"stype\":\"udcb_en\",\"exportToDCV\":\"true\",\"mqEnable\":\"false\",\"hostUrl\":\"" + URL_PREFIX + "\"}";
+            uModel.param = "{\"bundle\":\"http://52.41.114.117:8055/librarys\",\"userid\":\"" + userid + "\",\"language\":\"en\",\"stype\":\"udcb_en\",\"exportToDCV\":\"true\",\"mqEnable\":\"false\",\"hostUrl\":\"" + URL_PREFIX + "\"}";
             console.log(uModel.param);
             uModel.state = 0;
             uModel.loadJson = "";
