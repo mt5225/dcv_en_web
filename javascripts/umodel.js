@@ -1,5 +1,5 @@
 var uModel = uModel || {};
-uModel.scene = "ubuilder-0.8.1168.unity3d";
+uModel.scene = "ubuilder-0.8.1171.unity3d";
 uModel.debugging = "0";
 uModel.loadJson = "";
 uModel.param = "";
