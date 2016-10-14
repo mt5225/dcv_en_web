@@ -31,7 +31,7 @@ var express = require("express"),
     nodeModulesDir = 'node_modules',
     uploadedFilesPath = 'tmp/',
     chunkDirName = "chunks",
-    port = process.env.SERVER_PORT || 3000,
+    port = process.env.SERVER_PORT || 8888,
     maxFileSize = process.env.MAX_FILE_SIZE || 0; // in bytes, 0 for unlimited
 
 
