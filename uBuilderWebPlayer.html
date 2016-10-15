@@ -195,9 +195,9 @@ $(function() {
             },
             callbacks: {
                 onComplete: function(id, name, raw) {
-                    console.log(name);
-                    console.log(raw);
-                    parent.uModel.SetBaseMap("http://uinnova.com/basemap/fileuploader/tmp/7a3d4c98-7d5f-489c-95d5-e4d1727a3199/1.png")
+                    var filepath = raw.uuid + '/' + name
+                    console.log(filepath);
+                    parent.uModel.SetBaseMap("http://uinnova.com/basemap/fileuploader/tmp/" + filepath);
                     $('#baseMapDialog').modal('toggle');
                 }
             }
