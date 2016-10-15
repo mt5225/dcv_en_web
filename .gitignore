@@ -11,3 +11,4 @@ exported
 *.unity3d
 bits
 tmp
+node_modules
