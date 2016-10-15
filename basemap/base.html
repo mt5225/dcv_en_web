@@ -99,16 +99,13 @@
         </dialog>
     </div>
 </script>
-<script src="/javascripts/umodel.js"></script>
-<script src="/javascripts/UnityObject2.js"></script>
 <script>
 $(function() {
     console.log("ready!");
-    $('#baseMapDialog').modal('show');
     $('#myFineUploaderContainer').fineUploader({
             request: {
                 endpoint: 'http://uinnova.com:8888/uploads'
-                //endpoint: 'http://mt5225.cc:8888/uploads'
+                    //endpoint: 'http://mt5225.cc:8888/uploads'
             },
             autoUpload: false,
             cors: {
@@ -119,6 +116,7 @@ $(function() {
                 onComplete: function(id, name, raw) {
                     console.log(name);
                     console.log(raw);
+                    parent.uModel.SetBaseMap("http://uinnova.com/basemap/fileuploader/tmp/7a3d4c98-7d5f-489c-95d5-e4d1727a3199/1.png")
                     $('#baseMapDialog').modal('toggle');
                 }
             }
@@ -146,6 +144,10 @@ $(function() {
         $('#myFineUploaderContainer').fineUploader('uploadStoredFiles');
     });
 });
+
+function showBaseMapDialog() {
+    $('#baseMapDialog').modal('show');
+}
 </script>
 
 </html>
